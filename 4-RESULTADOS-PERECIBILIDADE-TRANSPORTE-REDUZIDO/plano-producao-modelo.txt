@@ -1,0 +1,483 @@
+Plano de Produção a partir da resultado do CPLEX
+============================================
+
+Tmax: 28.0
+
+No dia 0, o estoque do produto p1 na fábrica f1 é de 80.0000 toneladas.
+No dia 0, o estoque do produto p2 na fábrica f1 é de 21.4200 toneladas.
+No dia 0, o estoque do produto p3 na fábrica f1 é de 50.0000 toneladas.
+No dia 0, o estoque do produto p5 na fábrica f2 é de 16.0000 toneladas.
+No dia 0, o estoque do produto p1 na fábrica f3 é de 80.0000 toneladas.
+No dia 0, o estoque do produto p2 na fábrica f3 é de 21.4200 toneladas.
+No dia 0, o estoque do produto p3 na fábrica f4 é de 50.0000 toneladas.
+No dia 0, o estoque do produto p4 na fábrica f4 é de 40.0000 toneladas.
+No dia 0, o estoque do produto p6 na fábrica f4 é de 20.0000 toneladas.
+No dia 0, o estoque do produto p1 na fábrica f5 é de 80.0000 toneladas.
+No dia 0, o estoque do produto p2 na fábrica f5 é de 21.4200 toneladas.
+No dia 0, o estoque do produto p3 na fábrica f5 é de 50.0000 toneladas.
+No dia 0, o estoque do produto p4 na fábrica f5 é de 40.0000 toneladas.
+No dia 0, o estoque do produto p5 na fábrica f5 é de 16.0000 toneladas.
+No dia 0, o estoque do produto p6 na fábrica f5 é de 20.0000 toneladas.
+No dia 1, produção de 54.4320 toneladas do produto p1 na fábrica f1.
+No dia 1, o estoque do produto p1 na fábrica f1 é de 58.5800 toneladas.
+No dia 1, consumir 21.4200 toneladas do produto primário p1 para produção do derivado p2 na fábrica f1.
+No dia 1, transferência de 12.9600 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 1, o estoque do produto p2 na fábrica f1 é de 8.4600 toneladas.
+No dia 1, transferência de 25.0000 toneladas do produto p3 da fábrica f1 para a fábrica f5, usando o veículo t3 - k1.
+No dia 1, o estoque do produto p3 na fábrica f1 é de 25.0000 toneladas.
+No dia 1, produção de 4.5088 toneladas do produto p5 na fábrica f2.
+No dia 1, transferência de 9.8304 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 1, transferência de 6.1696 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t1 - k1.
+No dia 1, produção de 54.4320 toneladas do produto p1 na fábrica f3.
+No dia 1, transferência de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 1, o estoque do produto p1 na fábrica f3 é de 58.8320 toneladas.
+No dia 1, transferência de 12.9600 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 1, o estoque do produto p2 na fábrica f3 é de 8.4600 toneladas.
+No dia 1, produção de 50.0000 toneladas do produto p3 na fábrica f4.
+No dia 1, o estoque do produto p3 na fábrica f4 é de 10.0000 toneladas.
+No dia 1, consumir 40.0000 toneladas do produto primário p3 para produção do derivado p4 na fábrica f4.
+No dia 1, transferência de 30.0000 toneladas do produto p4 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 1, o estoque do produto p4 na fábrica f4 é de 10.0000 toneladas.
+No dia 1, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 1, o estoque do produto p6 na fábrica f4 é de 20.0000 toneladas.
+No dia 1, o estoque do produto p1 na fábrica f5 é de 80.0000 toneladas.
+No dia 1, o estoque do produto p2 na fábrica f5 é de 21.4200 toneladas.
+No dia 1, o estoque do produto p3 na fábrica f5 é de 50.0000 toneladas.
+No dia 1, o estoque do produto p4 na fábrica f5 é de 40.0000 toneladas.
+No dia 1, o estoque do produto p5 na fábrica f5 é de 16.0000 toneladas.
+No dia 1, o estoque do produto p6 na fábrica f5 é de 20.0000 toneladas.
+No dia 2, o estoque do produto p1 na fábrica f1 é de 58.3200 toneladas.
+No dia 2, consumir 0.2600 toneladas do produto primário p1 para produção do derivado p2 na fábrica f1.
+No dia 2, liberar 21.4200 toneladas do produto p2 da quarentena na fábrica f1.
+No dia 2, o estoque do produto p2 na fábrica f1 é de 29.8800 toneladas.
+No dia 2, o estoque do produto p3 na fábrica f1 é de 25.0000 toneladas.
+No dia 2, o estoque do produto p1 na fábrica f3 é de 45.9320 toneladas.
+No dia 2, consumir 12.9000 toneladas do produto primário p1 para produção do derivado p2 na fábrica f3.
+No dia 2, o estoque do produto p2 na fábrica f3 é de 8.4600 toneladas.
+No dia 2, o estoque do produto p3 na fábrica f4 é de 10.0000 toneladas.
+No dia 2, liberar 40.0000 toneladas do produto p4 da quarentena na fábrica f4.
+No dia 2, o estoque do produto p4 na fábrica f4 é de 50.0000 toneladas.
+No dia 2, recepção de 30.0000 toneladas do produto p4 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 2, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 2, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 2, o estoque do produto p1 na fábrica f5 é de 80.0000 toneladas.
+No dia 2, o estoque do produto p2 na fábrica f5 é de 21.4200 toneladas.
+No dia 2, o estoque do produto p3 na fábrica f5 é de 50.0000 toneladas.
+No dia 2, o estoque do produto p4 na fábrica f5 é de 70.0000 toneladas.
+No dia 2, o estoque do produto p5 na fábrica f5 é de 16.0000 toneladas.
+No dia 2, o estoque do produto p6 na fábrica f5 é de 20.0000 toneladas.
+No dia 3, produção de 54.4320 toneladas do produto p1 na fábrica f1.
+No dia 3, o estoque do produto p1 na fábrica f1 é de 58.3200 toneladas.
+No dia 3, transferência de 22.6800 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t1 - k2.
+No dia 3, transferência de 7.4600 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 3, liberar 0.2600 toneladas do produto p2 da quarentena na fábrica f1.
+No dia 3, recepção de 12.9600 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 3, transferência de 25.0000 toneladas do produto p3 da fábrica f1 para a fábrica f5, usando o veículo t3 - k1.
+No dia 3, recepção de 25.0000 toneladas do produto p3 da fábrica f1 para a fábrica f5, usando o veículo t3 - k1.
+No dia 3, produção de 9.8304 toneladas do produto p5 na fábrica f2.
+No dia 3, recepção de 6.1696 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t1 - k1.
+No dia 3, recepção de 9.8304 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 3, produção de 43.5800 toneladas do produto p1 na fábrica f3.
+No dia 3, o estoque do produto p1 na fábrica f3 é de 24.5120 toneladas.
+No dia 3, recepção de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 3, consumir 21.4200 toneladas do produto primário p1 para produção do derivado p2 na fábrica f3.
+No dia 3, transferência de 12.9600 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 3, liberar 12.9000 toneladas do produto p2 da quarentena na fábrica f3.
+No dia 3, o estoque do produto p2 na fábrica f3 é de 8.4000 toneladas.
+No dia 3, recepção de 12.9600 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 3, produção de 30.0000 toneladas do produto p3 na fábrica f4.
+No dia 3, o estoque do produto p3 na fábrica f4 é de 10.0000 toneladas.
+No dia 3, transferência de 50.0000 toneladas do produto p4 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 3, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 3, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 3, o estoque do produto p1 na fábrica f5 é de 101.1680 toneladas.
+No dia 3, o estoque do produto p2 na fábrica f5 é de 47.3400 toneladas.
+No dia 3, o estoque do produto p3 na fábrica f5 é de 75.0000 toneladas.
+No dia 3, o estoque do produto p4 na fábrica f5 é de 70.0000 toneladas.
+No dia 3, o estoque do produto p5 na fábrica f5 é de 32.0000 toneladas.
+No dia 3, o estoque do produto p6 na fábrica f5 é de 40.0000 toneladas.
+No dia 4, o estoque do produto p1 na fábrica f1 é de 42.8400 toneladas.
+No dia 4, consumir 15.4800 toneladas do produto primário p1 para produção do derivado p2 na fábrica f1.
+No dia 4, produção de 16.0000 toneladas do produto p5 na fábrica f2.
+No dia 4, o estoque do produto p1 na fábrica f3 é de 24.5120 toneladas.
+No dia 4, liberar 21.4200 toneladas do produto p2 da quarentena na fábrica f3.
+No dia 4, o estoque do produto p2 na fábrica f3 é de 29.8200 toneladas.
+No dia 4, o estoque do produto p3 na fábrica f4 é de 10.0000 toneladas.
+No dia 4, recepção de 50.0000 toneladas do produto p4 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 4, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 4, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 4, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 4, o estoque do produto p1 na fábrica f5 é de 101.1680 toneladas.
+No dia 4, o estoque do produto p2 na fábrica f5 é de 47.3400 toneladas.
+No dia 4, o estoque do produto p3 na fábrica f5 é de 75.0000 toneladas.
+No dia 4, o estoque do produto p4 na fábrica f5 é de 120.0000 toneladas.
+No dia 4, o estoque do produto p5 na fábrica f5 é de 32.0000 toneladas.
+No dia 4, o estoque do produto p6 na fábrica f5 é de 40.0000 toneladas.
+No dia 5, produção de 54.4320 toneladas do produto p1 na fábrica f1.
+No dia 5, o estoque do produto p1 na fábrica f1 é de 21.4200 toneladas.
+No dia 5, consumir 21.4200 toneladas do produto primário p1 para produção do derivado p2 na fábrica f1.
+No dia 5, liberar 15.4800 toneladas do produto p2 da quarentena na fábrica f1.
+No dia 5, o estoque do produto p2 na fábrica f1 é de 15.4800 toneladas.
+No dia 5, recepção de 22.6800 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t1 - k2.
+No dia 5, recepção de 7.4600 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 5, recepção de 25.0000 toneladas do produto p3 da fábrica f1 para a fábrica f5, usando o veículo t3 - k1.
+No dia 5, produção de 54.4320 toneladas do produto p1 na fábrica f3.
+No dia 5, transferência de 3.0920 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 5, o estoque do produto p1 na fábrica f3 é de 21.4200 toneladas.
+No dia 5, transferência de 12.9600 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 5, o estoque do produto p2 na fábrica f3 é de 16.8600 toneladas.
+No dia 5, recepção de 12.9600 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 5, produção de 15.0000 toneladas do produto p3 na fábrica f4.
+No dia 5, liberar 50.0000 toneladas do produto p3 da quarentena na fábrica f4.
+No dia 5, o estoque do produto p3 na fábrica f4 é de 60.0000 toneladas.
+No dia 5, transferência de 10.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 5, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 5, o estoque do produto p6 na fábrica f4 é de 10.0000 toneladas.
+No dia 5, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 5, o estoque do produto p1 na fábrica f5 é de 101.1680 toneladas.
+No dia 5, o estoque do produto p2 na fábrica f5 é de 90.4400 toneladas.
+No dia 5, o estoque do produto p3 na fábrica f5 é de 100.0000 toneladas.
+No dia 5, o estoque do produto p4 na fábrica f5 é de 120.0000 toneladas.
+No dia 5, o estoque do produto p5 na fábrica f5 é de 32.0000 toneladas.
+No dia 5, o estoque do produto p6 na fábrica f5 é de 60.0000 toneladas.
+No dia 6, consumir 21.4200 toneladas do produto primário p1 para produção do derivado p2 na fábrica f1.
+No dia 6, transferência de 22.6800 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t1 - k1.
+No dia 6, liberar 21.4200 toneladas do produto p2 da quarentena na fábrica f1.
+No dia 6, o estoque do produto p2 na fábrica f1 é de 14.2200 toneladas.
+No dia 6, consumir 21.4200 toneladas do produto primário p1 para produção do derivado p2 na fábrica f3.
+No dia 6, o estoque do produto p2 na fábrica f3 é de 16.8600 toneladas.
+No dia 6, produção de 50.0000 toneladas do produto p3 na fábrica f4.
+No dia 6, transferência de 50.0000 toneladas do produto p3 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 6, o estoque do produto p3 na fábrica f4 é de 10.0000 toneladas.
+No dia 6, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 6, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 6, o estoque do produto p6 na fábrica f4 é de 30.0000 toneladas.
+No dia 6, recepção de 10.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 6, o estoque do produto p1 na fábrica f5 é de 101.1680 toneladas.
+No dia 6, o estoque do produto p2 na fábrica f5 é de 90.4400 toneladas.
+No dia 6, o estoque do produto p3 na fábrica f5 é de 100.0000 toneladas.
+No dia 6, o estoque do produto p4 na fábrica f5 é de 120.0000 toneladas.
+No dia 6, o estoque do produto p5 na fábrica f5 é de 32.0000 toneladas.
+No dia 6, o estoque do produto p6 na fábrica f5 é de 70.0000 toneladas.
+No dia 7, transferência de 22.6800 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t1 - k2.
+No dia 7, transferência de 12.9600 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 7, liberar 21.4200 toneladas do produto p2 da quarentena na fábrica f1.
+No dia 7, produção de 25.0000 toneladas do produto p3 na fábrica f1.
+No dia 7, produção de 16.0000 toneladas do produto p5 na fábrica f2.
+No dia 7, transferência de 4.5088 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 7, liberar 4.5088 toneladas do produto p5 da quarentena na fábrica f2.
+No dia 7, recepção de 3.0920 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 7, transferência de 12.9600 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 7, transferência de 22.6800 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 7, transferência de 2.6400 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t1 - k1.
+No dia 7, liberar 21.4200 toneladas do produto p2 da quarentena na fábrica f3.
+No dia 7, recepção de 12.9600 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 7, liberar 30.0000 toneladas do produto p3 da quarentena na fábrica f4.
+No dia 7, recepção de 50.0000 toneladas do produto p3 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 7, consumir 40.0000 toneladas do produto primário p3 para produção do derivado p4 na fábrica f4.
+No dia 7, transferência de 50.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 7, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 7, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 7, o estoque do produto p2 na fábrica f5 é de 103.4000 toneladas.
+No dia 7, o estoque do produto p3 na fábrica f5 é de 150.0000 toneladas.
+No dia 7, o estoque do produto p4 na fábrica f5 é de 120.0000 toneladas.
+No dia 7, o estoque do produto p5 na fábrica f5 é de 32.0000 toneladas.
+No dia 7, o estoque do produto p6 na fábrica f5 é de 70.0000 toneladas.
+No dia 8, recepção de 22.6800 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t1 - k1.
+No dia 8, produção de 50.0000 toneladas do produto p3 na fábrica f4.
+No dia 8, transferência de 40.0000 toneladas do produto p4 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 8, liberar 40.0000 toneladas do produto p4 da quarentena na fábrica f4.
+No dia 8, recepção de 50.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 8, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 8, o estoque do produto p2 na fábrica f5 é de 126.0800 toneladas.
+No dia 8, o estoque do produto p3 na fábrica f5 é de 150.0000 toneladas.
+No dia 8, o estoque do produto p4 na fábrica f5 é de 120.0000 toneladas.
+No dia 8, o estoque do produto p5 na fábrica f5 é de 32.0000 toneladas.
+No dia 8, o estoque do produto p6 na fábrica f5 é de 120.0000 toneladas.
+No dia 9, recepção de 22.6800 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t1 - k2.
+No dia 9, recepção de 12.9600 toneladas do produto p2 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 9, produção de 9.8304 toneladas do produto p5 na fábrica f2.
+No dia 9, transferência de 9.8304 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 9, liberar 9.8304 toneladas do produto p5 da quarentena na fábrica f2.
+No dia 9, recepção de 4.5088 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 9, recepção de 2.6400 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t1 - k1.
+No dia 9, recepção de 22.6800 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 9, recepção de 12.9600 toneladas do produto p2 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 9, liberar 15.0000 toneladas do produto p3 da quarentena na fábrica f4.
+No dia 9, o estoque do produto p3 na fábrica f4 é de 15.0000 toneladas.
+No dia 9, recepção de 40.0000 toneladas do produto p4 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 9, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 9, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 9, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 9, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 9, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 9, o estoque do produto p3 na fábrica f5 é de 150.0000 toneladas.
+No dia 9, o estoque do produto p4 na fábrica f5 é de 160.0000 toneladas.
+No dia 9, o estoque do produto p5 na fábrica f5 é de 36.5088 toneladas.
+No dia 9, o estoque do produto p6 na fábrica f5 é de 120.0000 toneladas.
+No dia 10, transferência de 16.0000 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t1 - k1.
+No dia 10, liberar 16.0000 toneladas do produto p5 da quarentena na fábrica f2.
+No dia 10, produção de 50.0000 toneladas do produto p3 na fábrica f4.
+No dia 10, transferência de 25.0000 toneladas do produto p3 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 10, liberar 50.0000 toneladas do produto p3 da quarentena na fábrica f4.
+No dia 10, consumir 40.0000 toneladas do produto primário p3 para produção do derivado p4 na fábrica f4.
+No dia 10, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 10, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 10, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 10, o estoque do produto p3 na fábrica f5 é de 150.0000 toneladas.
+No dia 10, o estoque do produto p4 na fábrica f5 é de 160.0000 toneladas.
+No dia 10, o estoque do produto p5 na fábrica f5 é de 36.5088 toneladas.
+No dia 10, o estoque do produto p6 na fábrica f5 é de 140.0000 toneladas.
+No dia 11, transferência de 25.0000 toneladas do produto p3 da fábrica f1 para a fábrica f5, usando o veículo t3 - k1.
+No dia 11, liberar 25.0000 toneladas do produto p3 da quarentena na fábrica f1.
+No dia 11, produção de 16.0000 toneladas do produto p5 na fábrica f2.
+No dia 11, recepção de 9.8304 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 11, recepção de 25.0000 toneladas do produto p3 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 11, transferência de 40.0000 toneladas do produto p4 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 11, liberar 40.0000 toneladas do produto p4 da quarentena na fábrica f4.
+No dia 11, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 11, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 11, o estoque do produto p3 na fábrica f5 é de 175.0000 toneladas.
+No dia 11, o estoque do produto p4 na fábrica f5 é de 160.0000 toneladas.
+No dia 11, o estoque do produto p5 na fábrica f5 é de 46.3392 toneladas.
+No dia 11, o estoque do produto p6 na fábrica f5 é de 140.0000 toneladas.
+No dia 12, produção de 9.8304 toneladas do produto p5 na fábrica f2.
+No dia 12, recepção de 16.0000 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t1 - k1.
+No dia 12, liberar 50.0000 toneladas do produto p3 da quarentena na fábrica f4.
+No dia 12, o estoque do produto p3 na fábrica f4 é de 50.0000 toneladas.
+No dia 12, recepção de 40.0000 toneladas do produto p4 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 12, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 12, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 12, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 12, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 12, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 12, o estoque do produto p3 na fábrica f5 é de 175.0000 toneladas.
+No dia 12, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 12, o estoque do produto p5 na fábrica f5 é de 62.3392 toneladas.
+No dia 12, o estoque do produto p6 na fábrica f5 é de 140.0000 toneladas.
+No dia 13, recepção de 25.0000 toneladas do produto p3 da fábrica f1 para a fábrica f5, usando o veículo t3 - k1.
+No dia 13, transferência de 16.0000 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t1 - k1.
+No dia 13, liberar 16.0000 toneladas do produto p5 da quarentena na fábrica f2.
+No dia 13, transferência de 50.0000 toneladas do produto p3 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 13, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 13, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 13, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 13, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 13, o estoque do produto p3 na fábrica f5 é de 200.0000 toneladas.
+No dia 13, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 13, o estoque do produto p5 na fábrica f5 é de 62.3392 toneladas.
+No dia 13, o estoque do produto p6 na fábrica f5 é de 160.0000 toneladas.
+No dia 14, transferência de 50.0000 toneladas do produto p3 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 14, liberar 50.0000 toneladas do produto p3 da quarentena na fábrica f4.
+No dia 14, recepção de 50.0000 toneladas do produto p3 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 14, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 14, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 14, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 14, o estoque do produto p3 na fábrica f5 é de 250.0000 toneladas.
+No dia 14, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 14, o estoque do produto p5 na fábrica f5 é de 62.3392 toneladas.
+No dia 14, o estoque do produto p6 na fábrica f5 é de 160.0000 toneladas.
+No dia 15, produção de 16.0000 toneladas do produto p5 na fábrica f2.
+No dia 15, transferência de 9.8304 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 15, liberar 9.8304 toneladas do produto p5 da quarentena na fábrica f2.
+No dia 15, recepção de 16.0000 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t1 - k1.
+No dia 15, recepção de 50.0000 toneladas do produto p3 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 15, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 15, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 15, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 15, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 15, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 15, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 15, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 15, o estoque do produto p5 na fábrica f5 é de 78.3392 toneladas.
+No dia 15, o estoque do produto p6 na fábrica f5 é de 160.0000 toneladas.
+No dia 16, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 16, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 16, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 16, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 16, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 16, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 16, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 16, o estoque do produto p5 na fábrica f5 é de 78.3392 toneladas.
+No dia 16, o estoque do produto p6 na fábrica f5 é de 180.0000 toneladas.
+No dia 17, transferência de 16.0000 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t1 - k1.
+No dia 17, liberar 16.0000 toneladas do produto p5 da quarentena na fábrica f2.
+No dia 17, recepção de 9.8304 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 17, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 17, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 17, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 17, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 17, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 17, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 17, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 17, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 17, o estoque do produto p5 na fábrica f5 é de 88.1696 toneladas.
+No dia 17, o estoque do produto p6 na fábrica f5 é de 200.0000 toneladas.
+No dia 18, transferência de 9.8304 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 18, liberar 9.8304 toneladas do produto p5 da quarentena na fábrica f2.
+No dia 18, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 18, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 18, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 18, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 18, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 18, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 18, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 18, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 18, o estoque do produto p5 na fábrica f5 é de 88.1696 toneladas.
+No dia 18, o estoque do produto p6 na fábrica f5 é de 220.0000 toneladas.
+No dia 19, recepção de 16.0000 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t1 - k1.
+No dia 19, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 19, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 19, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 19, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 19, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 19, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 19, o estoque do produto p5 na fábrica f5 é de 104.1696 toneladas.
+No dia 19, o estoque do produto p6 na fábrica f5 é de 240.0000 toneladas.
+No dia 20, recepção de 9.8304 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 20, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 20, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 20, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 20, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 20, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 20, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 20, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 20, o estoque do produto p5 na fábrica f5 é de 114.0000 toneladas.
+No dia 20, o estoque do produto p6 na fábrica f5 é de 240.0000 toneladas.
+No dia 21, transferência de 9.8304 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 21, transferência de 6.1696 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t1 - k1.
+No dia 21, liberar 16.0000 toneladas do produto p5 da quarentena na fábrica f2.
+No dia 21, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 21, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 21, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 21, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 21, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 21, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 21, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 21, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 21, o estoque do produto p5 na fábrica f5 é de 114.0000 toneladas.
+No dia 21, o estoque do produto p6 na fábrica f5 é de 260.0000 toneladas.
+No dia 22, transferência de 12.0960 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 22, transferência de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k2.
+No dia 22, transferência de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k1.
+No dia 22, liberar 54.4320 toneladas do produto p1 da quarentena na fábrica f1.
+No dia 22, transferência de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k1.
+No dia 22, transferência de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 22, transferência de 12.0960 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 22, liberar 54.4320 toneladas do produto p1 da quarentena na fábrica f3.
+No dia 22, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 22, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 22, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 22, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 22, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 22, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 22, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 22, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 22, o estoque do produto p5 na fábrica f5 é de 114.0000 toneladas.
+No dia 22, o estoque do produto p6 na fábrica f5 é de 280.0000 toneladas.
+No dia 23, recepção de 6.1696 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t1 - k1.
+No dia 23, recepção de 9.8304 toneladas do produto p5 da fábrica f2 para a fábrica f5, usando o veículo t2 - k1.
+No dia 23, produção de 20.0000 toneladas do produto p6 na fábrica f4.
+No dia 23, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 23, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 23, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 23, o estoque do produto p1 na fábrica f5 é de 104.2600 toneladas.
+No dia 23, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 23, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 23, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 23, o estoque do produto p5 na fábrica f5 é de 130.0000 toneladas.
+No dia 23, o estoque do produto p6 na fábrica f5 é de 300.0000 toneladas.
+No dia 24, transferência de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k1.
+No dia 24, transferência de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k2.
+No dia 24, transferência de 12.0960 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 24, liberar 54.4320 toneladas do produto p1 da quarentena na fábrica f1.
+No dia 24, recepção de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k1.
+No dia 24, recepção de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k2.
+No dia 24, recepção de 12.0960 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 24, transferência de 12.0960 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 24, transferência de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 24, transferência de 10.3160 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k1.
+No dia 24, liberar 43.5800 toneladas do produto p1 da quarentena na fábrica f3.
+No dia 24, recepção de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k1.
+No dia 24, recepção de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 24, recepção de 12.0960 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 24, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 24, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 24, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 24, o estoque do produto p1 na fábrica f5 é de 213.1240 toneladas.
+No dia 24, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 24, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 24, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 24, o estoque do produto p5 na fábrica f5 é de 130.0000 toneladas.
+No dia 24, o estoque do produto p6 na fábrica f5 é de 320.0000 toneladas.
+No dia 25, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 25, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 25, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 25, o estoque do produto p1 na fábrica f5 é de 213.1240 toneladas.
+No dia 25, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 25, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 25, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 25, o estoque do produto p5 na fábrica f5 é de 130.0000 toneladas.
+No dia 25, o estoque do produto p6 na fábrica f5 é de 340.0000 toneladas.
+No dia 26, transferência de 12.0960 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 26, transferência de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k2.
+No dia 26, transferência de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k1.
+No dia 26, liberar 54.4320 toneladas do produto p1 da quarentena na fábrica f1.
+No dia 26, recepção de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k1.
+No dia 26, recepção de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k2.
+No dia 26, recepção de 12.0960 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 26, transferência de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k1.
+No dia 26, transferência de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 26, transferência de 12.0960 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 26, liberar 54.4320 toneladas do produto p1 da quarentena na fábrica f3.
+No dia 26, recepção de 10.3160 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k1.
+No dia 26, recepção de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 26, recepção de 12.0960 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 26, transferência de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 26, liberar 20.0000 toneladas do produto p6 da quarentena na fábrica f4.
+No dia 26, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 26, o estoque do produto p1 na fábrica f5 é de 311.1360 toneladas.
+No dia 26, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 26, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 26, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 26, o estoque do produto p5 na fábrica f5 é de 130.0000 toneladas.
+No dia 26, o estoque do produto p6 na fábrica f5 é de 360.0000 toneladas.
+No dia 27, recepção de 20.0000 toneladas do produto p6 da fábrica f4 para a fábrica f5, usando o veículo t4 - k1.
+No dia 27, o estoque do produto p1 na fábrica f5 é de 311.1360 toneladas.
+No dia 27, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 27, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 27, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 27, o estoque do produto p5 na fábrica f5 é de 130.0000 toneladas.
+No dia 27, o estoque do produto p6 na fábrica f5 é de 380.0000 toneladas.
+No dia 28, recepção de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k1.
+No dia 28, recepção de 21.1680 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t1 - k2.
+No dia 28, recepção de 12.0960 toneladas do produto p1 da fábrica f1 para a fábrica f5, usando o veículo t2 - k1.
+No dia 28, recepção de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k1.
+No dia 28, recepção de 21.1680 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t1 - k2.
+No dia 28, recepção de 12.0960 toneladas do produto p1 da fábrica f3 para a fábrica f5, usando o veículo t2 - k1.
+No dia 28, o estoque do produto p1 na fábrica f5 é de 420.0000 toneladas.
+No dia 28, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 28, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 28, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 28, o estoque do produto p5 na fábrica f5 é de 130.0000 toneladas.
+No dia 28, o estoque do produto p6 na fábrica f5 é de 380.0000 toneladas.
+No dia 29, o estoque do produto p1 na fábrica f5 é de 420.0000 toneladas.
+No dia 29, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 29, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 29, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 29, o estoque do produto p5 na fábrica f5 é de 130.0000 toneladas.
+No dia 29, o estoque do produto p6 na fábrica f5 é de 380.0000 toneladas.
+No dia 30, o estoque do produto p1 na fábrica f5 é de 420.0000 toneladas.
+No dia 30, o estoque do produto p2 na fábrica f5 é de 200.0000 toneladas.
+No dia 30, o estoque do produto p3 na fábrica f5 é de 300.0000 toneladas.
+No dia 30, o estoque do produto p4 na fábrica f5 é de 200.0000 toneladas.
+No dia 30, o estoque do produto p5 na fábrica f5 é de 130.0000 toneladas.
+No dia 30, o estoque do produto p6 na fábrica f5 é de 380.0000 toneladas.
+
+Demandas Atendidas:
+Demanda de p1 atendida no dia 28
+Demanda de p2 atendida no dia 15
+Demanda de p3 atendida no dia 15
+Demanda de p4 atendida no dia 18
+Demanda de p5 atendida no dia 23
+Demanda de p6 atendida no dia 27

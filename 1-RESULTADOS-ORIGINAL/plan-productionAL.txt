@@ -1,0 +1,515 @@
+Production Plan from CPLEX Solution
+============================================
+
+Tmax: 26.0
+
+On day 0, the stock of product p1 at factory f1 is 80.0000 tons.
+On day 0, the stock of product p2 at factory f1 is 21.4200 tons.
+On day 0, the stock of product p3 at factory f1 is 50.0000 tons.
+On day 0, the stock of product p5 at factory f2 is 16.0000 tons.
+On day 0, the stock of product p1 at factory f3 is 80.0000 tons.
+On day 0, the stock of product p2 at factory f3 is 21.4200 tons.
+On day 0, the stock of product p3 at factory f4 is 50.0000 tons.
+On day 0, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 0, the stock of product p6 at factory f4 is 20.0000 tons.
+On day 0, the stock of product p1 at factory f5 is 80.0000 tons.
+On day 0, the stock of product p2 at factory f5 is 21.4200 tons.
+On day 0, the stock of product p3 at factory f5 is 50.0000 tons.
+On day 0, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 0, the stock of product p5 at factory f5 is 16.0000 tons.
+On day 0, the stock of product p6 at factory f5 is 20.0000 tons.
+On day 1, production of 72.4440 tons of product p1 at factory f1.
+On day 1, transfer of 12.0960 tons of product p1 from factory f1 to factory f3, using vehicle t2 - k2.
+On day 1, the stock of product p1 at factory f1 is 67.9040 tons.
+On day 1, transfer of 21.4200 tons of product p2 from factory f1 to factory f5, using vehicle t1 - k1.
+On day 1, the stock of product p3 at factory f1 is 50.0000 tons.
+On day 1, production of 9.8304 tons of product p5 at factory f2.
+On day 1, transfer of 16.0000 tons of product p5 from factory f2 to factory f5, using vehicle t1 - k1.
+On day 1, production of 75.6000 tons of product p1 at factory f3.
+On day 1, the stock of product p1 at factory f3 is 58.5800 tons.
+On day 1, consume 21.4200 tons of primary product p1 for production of derived product p2 at factory f3.
+On day 1, the stock of product p2 at factory f3 is 21.4200 tons.
+On day 1, the stock of product p3 at factory f4 is 50.0000 tons.
+On day 1, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 1, production of 20.0000 tons of product p6 at factory f4.
+On day 1, the stock of product p6 at factory f4 is 20.0000 tons.
+On day 1, the stock of product p1 at factory f5 is 80.0000 tons.
+On day 1, the stock of product p2 at factory f5 is 21.4200 tons.
+On day 1, the stock of product p3 at factory f5 is 50.0000 tons.
+On day 1, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 1, the stock of product p5 at factory f5 is 16.0000 tons.
+On day 1, the stock of product p6 at factory f5 is 20.0000 tons.
+On day 2, production of 80.0000 tons of product p1 at factory f1.
+On day 2, the stock of product p1 at factory f1 is 46.4840 tons.
+On day 2, arrival of 12.0960 tons of product p1 from factory f1 to factory f3, using vehicle t2 - k2.
+On day 2, consume 21.4200 tons of primary product p1 for production of derived product p2 at factory f1.
+On day 2, the stock of product p3 at factory f1 is 50.0000 tons.
+On day 2, production of 80.0000 tons of product p1 at factory f3.
+On day 2, the stock of product p1 at factory f3 is 49.2560 tons.
+On day 2, consume 21.4200 tons of primary product p1 for production of derived product p2 at factory f3.
+On day 2, release 21.4200 tons of product p2 from quarantine at factory f3.
+On day 2, the stock of product p2 at factory f3 is 42.8400 tons.
+On day 2, the stock of product p3 at factory f4 is 50.0000 tons.
+On day 2, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 2, production of 20.0000 tons of product p6 at factory f4.
+On day 2, the stock of product p6 at factory f4 is 20.0000 tons.
+On day 2, the stock of product p1 at factory f5 is 80.0000 tons.
+On day 2, the stock of product p2 at factory f5 is 21.4200 tons.
+On day 2, the stock of product p3 at factory f5 is 50.0000 tons.
+On day 2, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 2, the stock of product p5 at factory f5 is 16.0000 tons.
+On day 2, the stock of product p6 at factory f5 is 20.0000 tons.
+On day 3, transfer of 17.8440 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k2.
+On day 3, the stock of product p1 at factory f1 is 28.6400 tons.
+On day 3, transfer of 21.4200 tons of product p2 from factory f1 to factory f5, using vehicle t1 - k1.
+On day 3, release 21.4200 tons of product p2 from quarantine at factory f1.
+On day 3, arrival of 21.4200 tons of product p2 from factory f1 to factory f5, using vehicle t1 - k1.
+On day 3, transfer of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k3.
+On day 3, transfer of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k2.
+On day 3, arrival of 16.0000 tons of product p5 from factory f2 to factory f5, using vehicle t1 - k1.
+On day 3, production of 7.6960 tons of product p1 at factory f3.
+On day 3, the stock of product p1 at factory f3 is 27.8360 tons.
+On day 3, consume 21.4200 tons of primary product p1 for production of derived product p2 at factory f3.
+On day 3, release 21.4200 tons of product p2 from quarantine at factory f3.
+On day 3, the stock of product p2 at factory f3 is 64.2600 tons.
+On day 3, the stock of product p3 at factory f4 is 50.0000 tons.
+On day 3, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 3, production of 20.0000 tons of product p6 at factory f4.
+On day 3, the stock of product p6 at factory f4 is 20.0000 tons.
+On day 3, the stock of product p1 at factory f5 is 80.0000 tons.
+On day 3, the stock of product p2 at factory f5 is 42.8400 tons.
+On day 3, the stock of product p3 at factory f5 is 50.0000 tons.
+On day 3, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 3, the stock of product p5 at factory f5 is 32.0000 tons.
+On day 3, the stock of product p6 at factory f5 is 20.0000 tons.
+On day 4, the stock of product p1 at factory f1 is 7.2200 tons.
+On day 4, consume 21.4200 tons of primary product p1 for production of derived product p2 at factory f1.
+On day 4, transfer of 6.4160 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k1.
+On day 4, consume 21.4200 tons of primary product p1 for production of derived product p2 at factory f3.
+On day 4, release 21.4200 tons of product p2 from quarantine at factory f3.
+On day 4, the stock of product p2 at factory f3 is 85.6800 tons.
+On day 4, the stock of product p3 at factory f4 is 50.0000 tons.
+On day 4, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 4, production of 20.0000 tons of product p6 at factory f4.
+On day 4, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 4, the stock of product p6 at factory f4 is 40.0000 tons.
+On day 4, the stock of product p1 at factory f5 is 80.0000 tons.
+On day 4, the stock of product p2 at factory f5 is 42.8400 tons.
+On day 4, the stock of product p3 at factory f5 is 50.0000 tons.
+On day 4, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 4, the stock of product p5 at factory f5 is 32.0000 tons.
+On day 4, the stock of product p6 at factory f5 is 20.0000 tons.
+On day 5, arrival of 17.8440 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k2.
+On day 5, consume 7.2200 tons of primary product p1 for production of derived product p2 at factory f1.
+On day 5, transfer of 21.4200 tons of product p2 from factory f1 to factory f5, using vehicle t1 - k3.
+On day 5, release 21.4200 tons of product p2 from quarantine at factory f1.
+On day 5, arrival of 21.4200 tons of product p2 from factory f1 to factory f5, using vehicle t1 - k1.
+On day 5, arrival of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k2.
+On day 5, arrival of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k3.
+On day 5, production of 16.0000 tons of product p5 at factory f2.
+On day 5, transfer of 22.6800 tons of product p2 from factory f3 to factory f1, using vehicle t1 - k3.
+On day 5, transfer of 16.3800 tons of product p2 from factory f3 to factory f1, using vehicle t1 - k2.
+On day 5, release 21.4200 tons of product p2 from quarantine at factory f3.
+On day 5, the stock of product p2 at factory f3 is 68.0400 tons.
+On day 5, the stock of product p3 at factory f4 is 50.0000 tons.
+On day 5, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 5, production of 20.0000 tons of product p6 at factory f4.
+On day 5, transfer of 10.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 5, transfer of 50.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 5, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 5, the stock of product p1 at factory f5 is 97.8440 tons.
+On day 5, the stock of product p2 at factory f5 is 64.2600 tons.
+On day 5, the stock of product p3 at factory f5 is 100.0000 tons.
+On day 5, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 5, the stock of product p5 at factory f5 is 32.0000 tons.
+On day 5, the stock of product p6 at factory f5 is 20.0000 tons.
+On day 6, release 7.2200 tons of product p2 from quarantine at factory f1.
+On day 6, the stock of product p2 at factory f1 is 46.2800 tons.
+On day 6, production of 2.1024 tons of product p5 at factory f2.
+On day 6, arrival of 6.4160 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k1.
+On day 6, arrival of 16.3800 tons of product p2 from factory f3 to factory f1, using vehicle t1 - k2.
+On day 6, arrival of 22.6800 tons of product p2 from factory f3 to factory f1, using vehicle t1 - k3.
+On day 6, transfer of 22.6800 tons of product p2 from factory f3 to factory f1, using vehicle t1 - k1.
+On day 6, transfer of 22.6800 tons of product p2 from factory f3 to factory f1, using vehicle t1 - k3.
+On day 6, the stock of product p2 at factory f3 is 22.6800 tons.
+On day 6, transfer of 50.0000 tons of product p3 from factory f4 to factory f5, using vehicle t4 - k1.
+On day 6, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 6, production of 20.0000 tons of product p6 at factory f4.
+On day 6, transfer of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 6, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 6, arrival of 50.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 6, arrival of 10.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 6, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 6, the stock of product p2 at factory f5 is 64.2600 tons.
+On day 6, the stock of product p3 at factory f5 is 100.0000 tons.
+On day 6, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 6, the stock of product p5 at factory f5 is 32.0000 tons.
+On day 6, the stock of product p6 at factory f5 is 80.0000 tons.
+On day 7, transfer of 12.9600 tons of product p2 from factory f1 to factory f5, using vehicle t2 - k2.
+On day 7, the stock of product p2 at factory f1 is 78.6800 tons.
+On day 7, arrival of 21.4200 tons of product p2 from factory f1 to factory f5, using vehicle t1 - k3.
+On day 7, release 9.8304 tons of product p5 from quarantine at factory f2.
+On day 7, the stock of product p5 at factory f2 is 9.8304 tons.
+On day 7, arrival of 22.6800 tons of product p2 from factory f3 to factory f1, using vehicle t1 - k1.
+On day 7, arrival of 22.6800 tons of product p2 from factory f3 to factory f1, using vehicle t1 - k3.
+On day 7, transfer of 22.6800 tons of product p2 from factory f3 to factory f5, using vehicle t1 - k1.
+On day 7, arrival of 50.0000 tons of product p3 from factory f4 to factory f5, using vehicle t4 - k1.
+On day 7, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 7, production of 20.0000 tons of product p6 at factory f4.
+On day 7, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 7, the stock of product p6 at factory f4 is 20.0000 tons.
+On day 7, arrival of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 7, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 7, the stock of product p2 at factory f5 is 85.6800 tons.
+On day 7, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 7, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 7, the stock of product p5 at factory f5 is 32.0000 tons.
+On day 7, the stock of product p6 at factory f5 is 100.0000 tons.
+On day 8, transfer of 22.6800 tons of product p2 from factory f1 to factory f5, using vehicle t1 - k3.
+On day 8, transfer of 22.6800 tons of product p2 from factory f1 to factory f3, using vehicle t1 - k1.
+On day 8, the stock of product p2 at factory f1 is 33.3200 tons.
+On day 8, the stock of product p5 at factory f2 is 9.8304 tons.
+On day 8, production of 50.0000 tons of product p3 at factory f4.
+On day 8, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 8, production of 20.0000 tons of product p6 at factory f4.
+On day 8, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 8, the stock of product p6 at factory f4 is 40.0000 tons.
+On day 8, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 8, the stock of product p2 at factory f5 is 85.6800 tons.
+On day 8, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 8, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 8, the stock of product p5 at factory f5 is 32.0000 tons.
+On day 8, the stock of product p6 at factory f5 is 100.0000 tons.
+On day 9, transfer of 10.6400 tons of product p2 from factory f1 to factory f5, using vehicle t1 - k1.
+On day 9, transfer of 22.6800 tons of product p2 from factory f1 to factory f3, using vehicle t1 - k2.
+On day 9, arrival of 22.6800 tons of product p2 from factory f1 to factory f3, using vehicle t1 - k1.
+On day 9, arrival of 12.9600 tons of product p2 from factory f1 to factory f5, using vehicle t2 - k2.
+On day 9, the stock of product p5 at factory f2 is 9.8304 tons.
+On day 9, transfer of 22.6800 tons of product p2 from factory f3 to factory f5, using vehicle t1 - k2.
+On day 9, arrival of 22.6800 tons of product p2 from factory f3 to factory f5, using vehicle t1 - k1.
+On day 9, production of 50.0000 tons of product p3 at factory f4.
+On day 9, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 9, production of 20.0000 tons of product p6 at factory f4.
+On day 9, transfer of 10.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 9, transfer of 50.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k1.
+On day 9, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 9, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 9, the stock of product p2 at factory f5 is 121.3200 tons.
+On day 9, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 9, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 9, the stock of product p5 at factory f5 is 32.0000 tons.
+On day 9, the stock of product p6 at factory f5 is 100.0000 tons.
+On day 10, arrival of 22.6800 tons of product p2 from factory f1 to factory f3, using vehicle t1 - k2.
+On day 10, arrival of 22.6800 tons of product p2 from factory f1 to factory f5, using vehicle t1 - k3.
+On day 10, production of 16.0000 tons of product p5 at factory f2.
+On day 10, transfer of 9.8304 tons of product p5 from factory f2 to factory f5, using vehicle t2 - k2.
+On day 10, transfer of 22.6800 tons of product p2 from factory f3 to factory f5, using vehicle t1 - k3.
+On day 10, production of 20.0000 tons of product p3 at factory f4.
+On day 10, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 10, production of 20.0000 tons of product p6 at factory f4.
+On day 10, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 10, the stock of product p6 at factory f4 is 20.0000 tons.
+On day 10, arrival of 50.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k1.
+On day 10, arrival of 10.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 10, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 10, the stock of product p2 at factory f5 is 144.0000 tons.
+On day 10, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 10, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 10, the stock of product p5 at factory f5 is 32.0000 tons.
+On day 10, the stock of product p6 at factory f5 is 160.0000 tons.
+On day 11, arrival of 10.6400 tons of product p2 from factory f1 to factory f5, using vehicle t1 - k1.
+On day 11, production of 11.0336 tons of product p5 at factory f2.
+On day 11, release 16.0000 tons of product p5 from quarantine at factory f2.
+On day 11, the stock of product p5 at factory f2 is 16.0000 tons.
+On day 11, arrival of 22.6800 tons of product p2 from factory f3 to factory f5, using vehicle t1 - k2.
+On day 11, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 11, production of 20.0000 tons of product p6 at factory f4.
+On day 11, transfer of 40.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 11, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 11, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 11, the stock of product p2 at factory f5 is 177.3200 tons.
+On day 11, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 11, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 11, the stock of product p5 at factory f5 is 32.0000 tons.
+On day 11, the stock of product p6 at factory f5 is 160.0000 tons.
+On day 12, production of 16.0000 tons of product p5 at factory f2.
+On day 12, transfer of 9.8304 tons of product p5 from factory f2 to factory f5, using vehicle t2 - k2.
+On day 12, release 2.1024 tons of product p5 from quarantine at factory f2.
+On day 12, the stock of product p5 at factory f2 is 8.2720 tons.
+On day 12, arrival of 9.8304 tons of product p5 from factory f2 to factory f5, using vehicle t2 - k2.
+On day 12, arrival of 22.6800 tons of product p2 from factory f3 to factory f5, using vehicle t1 - k3.
+On day 12, release 50.0000 tons of product p3 from quarantine at factory f4.
+On day 12, the stock of product p3 at factory f4 is 50.0000 tons.
+On day 12, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 12, production of 20.0000 tons of product p6 at factory f4.
+On day 12, transfer of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 12, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 12, arrival of 40.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 12, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 12, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 12, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 12, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 12, the stock of product p5 at factory f5 is 41.8304 tons.
+On day 12, the stock of product p6 at factory f5 is 200.0000 tons.
+On day 13, production of 11.0336 tons of product p5 at factory f2.
+On day 13, transfer of 8.2720 tons of product p5 from factory f2 to factory f5, using vehicle t1 - k2.
+On day 13, release 50.0000 tons of product p3 from quarantine at factory f4.
+On day 13, the stock of product p3 at factory f4 is 100.0000 tons.
+On day 13, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 13, production of 20.0000 tons of product p6 at factory f4.
+On day 13, transfer of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 13, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 13, arrival of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 13, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 13, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 13, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 13, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 13, the stock of product p5 at factory f5 is 41.8304 tons.
+On day 13, the stock of product p6 at factory f5 is 220.0000 tons.
+On day 14, production of 16.0000 tons of product p5 at factory f2.
+On day 14, arrival of 9.8304 tons of product p5 from factory f2 to factory f5, using vehicle t2 - k2.
+On day 14, release 20.0000 tons of product p3 from quarantine at factory f4.
+On day 14, the stock of product p3 at factory f4 is 120.0000 tons.
+On day 14, transfer of 40.0000 tons of product p4 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 14, production of 20.0000 tons of product p6 at factory f4.
+On day 14, transfer of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 14, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 14, arrival of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 14, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 14, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 14, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 14, the stock of product p4 at factory f5 is 40.0000 tons.
+On day 14, the stock of product p5 at factory f5 is 51.6608 tons.
+On day 14, the stock of product p6 at factory f5 is 240.0000 tons.
+On day 15, arrival of 8.2720 tons of product p5 from factory f2 to factory f5, using vehicle t1 - k2.
+On day 15, the stock of product p3 at factory f4 is 120.0000 tons.
+On day 15, arrival of 40.0000 tons of product p4 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 15, production of 20.0000 tons of product p6 at factory f4.
+On day 15, transfer of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 15, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 15, arrival of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 15, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 15, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 15, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 15, the stock of product p4 at factory f5 is 80.0000 tons.
+On day 15, the stock of product p5 at factory f5 is 59.9328 tons.
+On day 15, the stock of product p6 at factory f5 is 260.0000 tons.
+On day 16, transfer of 16.0000 tons of product p5 from factory f2 to factory f5, using vehicle t1 - k1.
+On day 16, release 16.0000 tons of product p5 from quarantine at factory f2.
+On day 16, the stock of product p3 at factory f4 is 120.0000 tons.
+On day 16, production of 20.0000 tons of product p6 at factory f4.
+On day 16, transfer of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 16, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 16, arrival of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 16, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 16, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 16, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 16, the stock of product p4 at factory f5 is 80.0000 tons.
+On day 16, the stock of product p5 at factory f5 is 59.9328 tons.
+On day 16, the stock of product p6 at factory f5 is 280.0000 tons.
+On day 17, production of 25.0000 tons of product p3 at factory f1.
+On day 17, transfer of 9.8304 tons of product p5 from factory f2 to factory f5, using vehicle t2 - k2.
+On day 17, release 11.0336 tons of product p5 from quarantine at factory f2.
+On day 17, the stock of product p5 at factory f2 is 1.2032 tons.
+On day 17, the stock of product p3 at factory f4 is 120.0000 tons.
+On day 17, transfer of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k1.
+On day 17, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 17, arrival of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 17, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 17, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 17, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 17, the stock of product p4 at factory f5 is 80.0000 tons.
+On day 17, the stock of product p5 at factory f5 is 59.9328 tons.
+On day 17, the stock of product p6 at factory f5 is 300.0000 tons.
+On day 18, production of 50.0000 tons of product p3 at factory f1.
+On day 18, transfer of 17.2032 tons of product p5 from factory f2 to factory f5, using vehicle t1 - k3.
+On day 18, release 16.0000 tons of product p5 from quarantine at factory f2.
+On day 18, arrival of 16.0000 tons of product p5 from factory f2 to factory f5, using vehicle t1 - k1.
+On day 18, the stock of product p3 at factory f4 is 120.0000 tons.
+On day 18, production of 20.0000 tons of product p6 at factory f4.
+On day 18, transfer of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k1.
+On day 18, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 18, arrival of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k1.
+On day 18, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 18, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 18, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 18, the stock of product p4 at factory f5 is 80.0000 tons.
+On day 18, the stock of product p5 at factory f5 is 75.9328 tons.
+On day 18, the stock of product p6 at factory f5 is 320.0000 tons.
+On day 19, production of 50.0000 tons of product p3 at factory f1.
+On day 19, transfer of 9.8304 tons of product p5 from factory f2 to factory f5, using vehicle t2 - k2.
+On day 19, release 11.0336 tons of product p5 from quarantine at factory f2.
+On day 19, the stock of product p5 at factory f2 is 1.2032 tons.
+On day 19, arrival of 9.8304 tons of product p5 from factory f2 to factory f5, using vehicle t2 - k2.
+On day 19, the stock of product p3 at factory f4 is 120.0000 tons.
+On day 19, transfer of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k4.
+On day 19, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 19, arrival of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k1.
+On day 19, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 19, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 19, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 19, the stock of product p4 at factory f5 is 80.0000 tons.
+On day 19, the stock of product p5 at factory f5 is 85.7632 tons.
+On day 19, the stock of product p6 at factory f5 is 340.0000 tons.
+On day 20, transfer of 17.2032 tons of product p5 from factory f2 to factory f5, using vehicle t1 - k3.
+On day 20, release 16.0000 tons of product p5 from quarantine at factory f2.
+On day 20, arrival of 17.2032 tons of product p5 from factory f2 to factory f5, using vehicle t1 - k3.
+On day 20, production of 25.0000 tons of product p3 at factory f4.
+On day 20, the stock of product p3 at factory f4 is 80.0000 tons.
+On day 20, consume 40.0000 tons of primary product p3 for production of derived product p4 at factory f4.
+On day 20, arrival of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k4.
+On day 20, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 20, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 20, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 20, the stock of product p4 at factory f5 is 80.0000 tons.
+On day 20, the stock of product p5 at factory f5 is 102.9664 tons.
+On day 20, the stock of product p6 at factory f5 is 360.0000 tons.
+On day 21, release 25.0000 tons of product p3 from quarantine at factory f1.
+On day 21, the stock of product p3 at factory f1 is 25.0000 tons.
+On day 21, arrival of 9.8304 tons of product p5 from factory f2 to factory f5, using vehicle t2 - k2.
+On day 21, the stock of product p3 at factory f4 is 40.0000 tons.
+On day 21, consume 40.0000 tons of primary product p3 for production of derived product p4 at factory f4.
+On day 21, release 40.0000 tons of product p4 from quarantine at factory f4.
+On day 21, the stock of product p4 at factory f4 is 40.0000 tons.
+On day 21, transfer of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 21, release 20.0000 tons of product p6 from quarantine at factory f4.
+On day 21, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 21, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 21, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 21, the stock of product p4 at factory f5 is 80.0000 tons.
+On day 21, the stock of product p5 at factory f5 is 112.7968 tons.
+On day 21, the stock of product p6 at factory f5 is 360.0000 tons.
+On day 22, transfer of 21.1680 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k2.
+On day 22, transfer of 21.1680 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k3.
+On day 22, transfer of 12.0960 tons of product p1 from factory f1 to factory f5, using vehicle t2 - k1.
+On day 22, transfer of 12.0960 tons of product p1 from factory f1 to factory f5, using vehicle t2 - k2.
+On day 22, release 72.4440 tons of product p1 from quarantine at factory f1.
+On day 22, the stock of product p1 at factory f1 is 5.9160 tons.
+On day 22, release 50.0000 tons of product p3 from quarantine at factory f1.
+On day 22, the stock of product p3 at factory f1 is 75.0000 tons.
+On day 22, arrival of 17.2032 tons of product p5 from factory f2 to factory f5, using vehicle t1 - k3.
+On day 22, transfer of 12.0960 tons of product p1 from factory f3 to factory f5, using vehicle t2 - k1.
+On day 22, transfer of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k3.
+On day 22, transfer of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k2.
+On day 22, transfer of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k1.
+On day 22, release 75.6000 tons of product p1 from quarantine at factory f3.
+On day 22, the stock of product p3 at factory f4 is 40.0000 tons.
+On day 22, transfer of 50.0000 tons of product p4 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 22, transfer of 30.0000 tons of product p4 from factory f4 to factory f5, using vehicle t4 - k1.
+On day 22, release 40.0000 tons of product p4 from quarantine at factory f4.
+On day 22, arrival of 20.0000 tons of product p6 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 22, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 22, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 22, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 22, the stock of product p4 at factory f5 is 80.0000 tons.
+On day 22, the stock of product p5 at factory f5 is 130.0000 tons.
+On day 22, the stock of product p6 at factory f5 is 380.0000 tons.
+On day 23, transfer of 19.3880 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k1.
+On day 23, release 80.0000 tons of product p1 from quarantine at factory f1.
+On day 23, the stock of product p1 at factory f1 is 66.5280 tons.
+On day 23, transfer of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k5.
+On day 23, transfer of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k4.
+On day 23, transfer of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k3.
+On day 23, transfer of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k2.
+On day 23, transfer of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k1.
+On day 23, release 50.0000 tons of product p3 from quarantine at factory f1.
+On day 23, transfer of 12.0960 tons of product p1 from factory f3 to factory f5, using vehicle t2 - k2.
+On day 23, release 80.0000 tons of product p1 from quarantine at factory f3.
+On day 23, the stock of product p1 at factory f3 is 67.9040 tons.
+On day 23, consume 40.0000 tons of primary product p3 for production of derived product p4 at factory f4.
+On day 23, arrival of 30.0000 tons of product p4 from factory f4 to factory f5, using vehicle t4 - k1.
+On day 23, arrival of 50.0000 tons of product p4 from factory f4 to factory f5, using vehicle t4 - k3.
+On day 23, the stock of product p1 at factory f5 is 104.2600 tons.
+On day 23, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 23, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 23, the stock of product p4 at factory f5 is 160.0000 tons.
+On day 23, the stock of product p5 at factory f5 is 130.0000 tons.
+On day 23, the stock of product p6 at factory f5 is 380.0000 tons.
+On day 24, transfer of 12.0960 tons of product p1 from factory f1 to factory f5, using vehicle t2 - k2.
+On day 24, transfer of 12.0960 tons of product p1 from factory f1 to factory f5, using vehicle t2 - k1.
+On day 24, transfer of 21.1680 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k3.
+On day 24, transfer of 21.1680 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k2.
+On day 24, arrival of 21.1680 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k2.
+On day 24, arrival of 21.1680 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k3.
+On day 24, arrival of 12.0960 tons of product p1 from factory f1 to factory f5, using vehicle t2 - k1.
+On day 24, arrival of 12.0960 tons of product p1 from factory f1 to factory f5, using vehicle t2 - k2.
+On day 24, transfer of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k1.
+On day 24, transfer of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k2.
+On day 24, transfer of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k3.
+On day 24, transfer of 12.0960 tons of product p1 from factory f3 to factory f5, using vehicle t2 - k1.
+On day 24, release 7.6960 tons of product p1 from quarantine at factory f3.
+On day 24, arrival of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k1.
+On day 24, arrival of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k2.
+On day 24, arrival of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k3.
+On day 24, arrival of 12.0960 tons of product p1 from factory f3 to factory f5, using vehicle t2 - k1.
+On day 24, transfer of 25.0000 tons of product p3 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 24, release 25.0000 tons of product p3 from quarantine at factory f4.
+On day 24, transfer of 40.0000 tons of product p4 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 24, release 40.0000 tons of product p4 from quarantine at factory f4.
+On day 24, the stock of product p1 at factory f5 is 246.3880 tons.
+On day 24, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 24, the stock of product p3 at factory f5 is 150.0000 tons.
+On day 24, the stock of product p4 at factory f5 is 160.0000 tons.
+On day 24, the stock of product p5 at factory f5 is 130.0000 tons.
+On day 24, the stock of product p6 at factory f5 is 380.0000 tons.
+On day 25, arrival of 19.3880 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k1.
+On day 25, arrival of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k1.
+On day 25, arrival of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k2.
+On day 25, arrival of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k3.
+On day 25, arrival of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k4.
+On day 25, arrival of 25.0000 tons of product p3 from factory f1 to factory f5, using vehicle t3 - k5.
+On day 25, arrival of 12.0960 tons of product p1 from factory f3 to factory f5, using vehicle t2 - k2.
+On day 25, arrival of 25.0000 tons of product p3 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 25, arrival of 40.0000 tons of product p4 from factory f4 to factory f5, using vehicle t4 - k2.
+On day 25, the stock of product p1 at factory f5 is 277.8720 tons.
+On day 25, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 25, the stock of product p3 at factory f5 is 300.0000 tons.
+On day 25, the stock of product p4 at factory f5 is 200.0000 tons.
+On day 25, the stock of product p5 at factory f5 is 130.0000 tons.
+On day 25, the stock of product p6 at factory f5 is 380.0000 tons.
+On day 26, arrival of 21.1680 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k2.
+On day 26, arrival of 21.1680 tons of product p1 from factory f1 to factory f5, using vehicle t1 - k3.
+On day 26, arrival of 12.0960 tons of product p1 from factory f1 to factory f5, using vehicle t2 - k1.
+On day 26, arrival of 12.0960 tons of product p1 from factory f1 to factory f5, using vehicle t2 - k2.
+On day 26, arrival of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k1.
+On day 26, arrival of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k2.
+On day 26, arrival of 21.1680 tons of product p1 from factory f3 to factory f5, using vehicle t1 - k3.
+On day 26, arrival of 12.0960 tons of product p1 from factory f3 to factory f5, using vehicle t2 - k1.
+On day 26, the stock of product p1 at factory f5 is 420.0000 tons.
+On day 26, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 26, the stock of product p3 at factory f5 is 300.0000 tons.
+On day 26, the stock of product p4 at factory f5 is 200.0000 tons.
+On day 26, the stock of product p5 at factory f5 is 130.0000 tons.
+On day 26, the stock of product p6 at factory f5 is 380.0000 tons.
+On day 27, the stock of product p1 at factory f5 is 420.0000 tons.
+On day 27, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 27, the stock of product p3 at factory f5 is 300.0000 tons.
+On day 27, the stock of product p4 at factory f5 is 200.0000 tons.
+On day 27, the stock of product p5 at factory f5 is 130.0000 tons.
+On day 27, the stock of product p6 at factory f5 is 380.0000 tons.
+On day 28, the stock of product p1 at factory f5 is 420.0000 tons.
+On day 28, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 28, the stock of product p3 at factory f5 is 300.0000 tons.
+On day 28, the stock of product p4 at factory f5 is 200.0000 tons.
+On day 28, the stock of product p5 at factory f5 is 130.0000 tons.
+On day 28, the stock of product p6 at factory f5 is 380.0000 tons.
+On day 29, the stock of product p1 at factory f5 is 420.0000 tons.
+On day 29, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 29, the stock of product p3 at factory f5 is 300.0000 tons.
+On day 29, the stock of product p4 at factory f5 is 200.0000 tons.
+On day 29, the stock of product p5 at factory f5 is 130.0000 tons.
+On day 29, the stock of product p6 at factory f5 is 380.0000 tons.
+On day 30, the stock of product p1 at factory f5 is 420.0000 tons.
+On day 30, the stock of product p2 at factory f5 is 200.0000 tons.
+On day 30, the stock of product p3 at factory f5 is 300.0000 tons.
+On day 30, the stock of product p4 at factory f5 is 200.0000 tons.
+On day 30, the stock of product p5 at factory f5 is 130.0000 tons.
+On day 30, the stock of product p6 at factory f5 is 380.0000 tons.
+
+Demands Met:
+Demand of p1 met on day 26
+Demand of p2 met on day 12
+Demand of p3 met on day 25
+Demand of p4 met on day 25
+Demand of p5 met on day 22
+Demand of p6 met on day 22
